@@ -3,6 +3,7 @@ import React from 'react'
 
 const Card2 = () => {
     return (
+        
         <View>
             <Image source={{ uri: 'https://i.pinimg.com/736x/7f/66/e3/7f66e3405ab58b27841570b3e0b7458c.jpg' }} style={styles.foto} />
             <Text style={styles.texto}>Neymar Jr</Text>
@@ -17,8 +18,8 @@ const Card2 = () => {
 export default Card2
 const styles = StyleSheet.create({
     foto: {
-        width: 220,
-        height: 320
+        width: 100,
+        height: 150
     },
     texto: {
         color: 'white',
