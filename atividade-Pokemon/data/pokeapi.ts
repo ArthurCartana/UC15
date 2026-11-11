@@ -1,7 +1,7 @@
 const BASE_URL = 'https://pokeapi.co/api/v2/pokemon';
 
 // Bulbasaur, Charmander e Squirtle
-export const idsIniciais = [1, 4, 7];
+export const idsIniciais = [25, 4, 6, 94];
 
 export type Pokemon = {
   id: number;
